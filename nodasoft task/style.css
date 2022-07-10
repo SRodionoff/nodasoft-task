@@ -1,0 +1,162 @@
+* {
+   margin: 0 auto;
+   font-family: 'Roboto';
+   font-style: normal;
+}
+
+.container {
+   width: 1200px;
+   /* display: flex; */
+   align-items: center;
+   background: #C0DBD9;
+   justify-content: center;
+   margin: 0 auto;
+
+}
+
+.header {
+   width: 1170px;
+   height: 100px;
+   background: #7FAFF6;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+
+.open {
+   border: none;
+   border-radius: 5px;
+   background: #A5C7F9;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+   padding: 8px 15px;
+   color: #FFFFFF;
+   text-decoration: none;
+}
+
+.popOp {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 15px;
+   width: 370px;
+   height: 370px;
+   visibility: hidden;
+   opacity: 0;
+   position: fixed;
+   top: 7%;
+   left: 25%;
+   visibility: hidden;
+   background: #FFFFFF;
+}
+
+.popOp:target {
+   visibility: visible;
+   opacity: 1;
+}
+
+.popOp img {
+   width: 13px;
+   height: 23px;
+}
+
+.popOp a {
+   width: 43px;
+   height: 39px;
+   background: #7FAFF6;
+   border-radius: 5px;
+   border: none;
+   display: flex;
+   align-items: center;
+   margin-left: 330px;
+}
+
+.popOp h1 {
+   margin-top: 120px;
+   font-size: 53px;
+   font-weight: 400;
+}
+
+.popBtn {
+   margin-left: 30px;
+}
+
+.block1 {
+   display: flex;
+   background: #B3F95A;
+   width: 1170px;
+   flex-wrap: wrap;
+   margin: 15px;
+}
+
+.first {
+   width: 390px;
+   margin-right: 7.5px;
+   margin-left: 0;
+}
+
+.sec {
+   width: 590px;
+   margin: 0 7.5px;
+}
+
+.thrd {
+   width: 160px;
+   margin-left: 7.5px;
+   margin-right: -7.5px;
+}
+
+.frth {
+   width: 995px;
+   margin-top: 15px;
+}
+
+.fifth {
+   width: 160px;
+   margin-left: 15px;
+   margin-top: 15px;
+}
+
+.first,
+.sec,
+.thrd,
+.frth,
+.fifth {
+   background: #8AD191;
+   height: 198px;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 53px;
+   font-weight: 400;
+}
+
+.block2 {
+   display: flex;
+   margin: 40vh auto;
+   background: #88B5BF;
+   max-width: 100%;
+   width: 1170px;
+   height: 259px;
+   margin: 0 auto;
+   background-size: 100%;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+}
+
+.blue {
+   background: #0D89B0;
+   width: 100%;
+   margin: 0 30px;
+   aspect-ratio: 1/1;
+}
+
+.footer {
+   width: 1170px;
+   height: 100px;
+   background: #7FAFF6;
+   margin-top: 100px;
+}
